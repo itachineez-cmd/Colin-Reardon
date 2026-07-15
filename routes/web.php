@@ -36,7 +36,7 @@ Route::get('/aa', function () {
 
 ///              login
 
-Route::middleware('auth')->group(function () {
+
 
 Route::get('/dashboard', [AdminController::class, 'index'])->name('dashboard');
                             ////////// BlogsRouts
@@ -70,7 +70,7 @@ Route::post('/admin/update-profile', [AdminController::class, 'update'])
 
 
 
-});
+
 Route::get('/', [AuthController::class, 'index'])->name('index');
 Route::get('/blogss', [BlogsController::class, 'allBlogs'])->name('blogs.all');
 Route::get('/biography', [BlogsController::class,  'indexs'])->name('biography');
