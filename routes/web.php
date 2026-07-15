@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AuthController;
+use App\Http\Controllers\authController;
 use App\Http\Controllers\BlogsController;
 use App\Http\Controllers\BookController;
 use App\Http\Controllers\AdminController;
