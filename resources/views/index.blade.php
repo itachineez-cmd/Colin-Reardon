@@ -1469,7 +1469,7 @@
                   </div>
                   <span class="blog-card__author-name">Colin Reardon</span>
                 </div>
-                <a href="#" class="blog-card__read">Read →</a>
+                <a href="{{ $blog->link ?? '#' }}" class="blog-card__read">Read →</a>
               </div>
             </div>
           </article>
