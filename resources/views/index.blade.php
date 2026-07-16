@@ -1478,7 +1478,7 @@
       </div>
 
       <div class="blogs__view-all">
-        <a href="#" class="btn btn--outline">All Posts</a>
+        <a href="https://cpreardon.blogspot.com/search?updated-max=2026-07-03T02:32:00-07:00&max-results=5" class="btn btn--outline">All Posts</a>
       </div>
     </div>
   </section>
