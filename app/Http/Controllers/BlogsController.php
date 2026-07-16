@@ -10,7 +10,7 @@ class BlogsController extends Controller
 {
     public function create()
     {
-        return view('blogs.createBlogs');
+        return view('blogs.CreateBlogs');
     }
 
     public function store(Request $request)
